@@ -1,0 +1,1 @@
+?package(sparky-conkeyset):needs="X11" section="Applications/System"        title="Console Keyboard Settings" command="remsu 'dpkg-reconfigure -f gnome console-data'" icon="input-keyboard"
