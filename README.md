@@ -1,7 +1,7 @@
 Console Keyboard Settings
 This tool allows you to change the console keyboard settings for your system
 
-Copyright (C) 2013-2017 Paweł Pijanowski
+Copyright (C) 2013-2018 Paweł Pijanowski
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -21,6 +21,7 @@ Dependencies:
 console-data
 dpkg
 sparky-remsu
+sparky-xterm
 
 Install:
 -------------
