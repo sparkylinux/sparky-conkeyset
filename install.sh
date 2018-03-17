@@ -18,6 +18,7 @@ if [ "$1" = "uninstall" ]; then
 	rm -f /usr/lib/sparkycenter/system/sparky-conkeyset.desktop
 	rm -f /usr/share/applications/sparky-conkeyset.desktop
 	rm -f /usr/share/menu/sparky-conkeyset
+	rm -f /usr/bin/sparky-conkeyset
 else
 	if [ ! -d /usr/lib/sparkycenter/system ]; then
 		mkdir -p /usr/lib/sparkycenter/system
@@ -25,4 +26,5 @@ else
 	cp lib/* /usr/lib/sparkycenter/system/
 	cp lib/* /usr/share/applications/
 	cp menu/* /usr/share/menu/
+	cp bin/* /usr/bin/
 fi
